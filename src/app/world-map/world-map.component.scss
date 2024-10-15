@@ -1,0 +1,24 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    max-width: 100%;
+}
+
+.details {
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    border: solid 2px black;
+    width: 24%;
+}
+
+path:hover {
+    fill: rgb(19, 185, 24);
+    stroke: rgb(12, 71, 18);
+}
+
+h3 {
+    text-decoration: underline;
+}
